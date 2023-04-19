@@ -2,7 +2,9 @@
 
 **Strengthness**
 
-```
+```bash
+kyj@kyjs-dev ~ help
+
 Experince in 
   - software architect
   - design
@@ -17,4 +19,5 @@ Responsive Web App
 Hybrid Mobile App
 Ansible, Terraform
 Unix, Linux, Window
+
 ```
