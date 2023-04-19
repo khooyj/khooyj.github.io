@@ -3,8 +3,13 @@
 **Strengthness**
 
 ```
-Experince in software architect, design, coding, security and private or goverment cloud service
-Experince from small to large scale system.
+Experince in 
+  - software architect
+  - design
+  - coding
+  - security
+  - private or goverment cloud service
+  - UX
 
 Java, python, shell script, nodejs, javascript
 Modern UI framework
