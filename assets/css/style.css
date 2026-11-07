@@ -48,4 +48,27 @@ h2{margin:48px 0 16px;font-size:1.7rem;display:inline-block;padding:2px 16px;bac
 .site-footer{margin-top:64px;background:var(--denim);color:var(--white);border-top:6px solid var(--black);padding:22px 0}
 .site-footer a{color:var(--yellow)}
 @media(max-width:520px){.goggle::before,.goggle::after{width:30px}.goggle::before{left:-34px}.goggle::after{right:-34px}}
+
+/* Running minions in the background */
+.runners{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.site-header,main,.site-footer{position:relative;z-index:1}
+.minion{position:absolute;bottom:var(--b);left:0;width:calc(var(--s)*.55);height:var(--s);animation:run var(--t) linear var(--d) infinite;opacity:.9}
+.minion i{position:absolute;display:block}
+.minion .body{inset:0 0 18% 0;background:var(--yellow-d);border:3px solid var(--black);border-radius:999px;overflow:hidden;animation:bob .35s ease-in-out infinite}
+.minion .goggle-s{top:22%;left:50%;width:62%;aspect-ratio:1;margin-left:-31%;border-radius:50%;background:var(--steel);border:3px solid var(--black);z-index:2}
+.minion .goggle-s i{inset:18%;border-radius:50%;background:#fff;border:2px solid var(--black)}
+.minion .goggle-s i::after{content:"";position:absolute;left:50%;top:50%;width:45%;aspect-ratio:1;margin:-22% 0 0 -22%;border-radius:50%;background:var(--brown)}
+.minion.two .goggle-s{width:46%;margin-left:-47%;left:50%}
+.minion.two .goggle-s.g2{margin-left:1%}
+.minion .goggle-s.g2{display:none}.minion.two .goggle-s.g2{display:block}
+.minion .smile{left:32%;top:56%;width:36%;height:10%;border-bottom:3px solid var(--black);border-radius:0 0 50% 50%}
+.minion .overall{left:-3px;right:-3px;bottom:-3px;height:36%;background:var(--denim);border-top:3px solid var(--black)}
+.minion .hair{left:46%;top:-9%;width:3px;height:14%;background:var(--black);box-shadow:-5px 2px 0 var(--black),5px 2px 0 var(--black)}
+.minion .leg{bottom:0;width:20%;height:20%;background:var(--black);border-radius:3px 3px 6px 6px;transform-origin:top center}
+.minion .l1{left:22%;animation:step .35s ease-in-out infinite}
+.minion .l2{right:22%;animation:step .35s ease-in-out infinite reverse}
+@keyframes run{from{transform:translateX(-120px)}to{transform:translateX(calc(100vw + 120px))}}
+@keyframes bob{50%{transform:translateY(-6%)}}
+@keyframes step{0%,100%{transform:rotate(28deg)}50%{transform:rotate(-28deg)}}
+@media(max-width:520px){.minion{opacity:.6}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto}}
