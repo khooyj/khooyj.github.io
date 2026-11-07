@@ -1,23 +1,7 @@
-## About ME
+# khooyj.github.io
 
-**Strengthness**
+Personal site, built with Jekyll on GitHub Pages. Live at https://khooyj.github.io
 
-```bash
-kyj@kyjs-dev ~ help
-
-Experince in 
-  - software architect
-  - design
-  - coding
-  - security
-  - private or goverment cloud service
-  - UX
-
-Java, python, shell script, nodejs, javascript
-Modern UI framework
-Responsive Web App
-Hybrid Mobile App
-Ansible, Terraform
-Unix, Linux, Window
-
-```
+- `index.md` – homepage content
+- `_layouts/default.html` – page layout
+- `assets/css/style.css` – styles (light/dark, responsive)
