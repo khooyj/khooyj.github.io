@@ -2,25 +2,58 @@
 layout: default
 ---
 
-## About me
+<section class="hero">
+  <p class="eyebrow">Tech Lead</p>
+  <h1>Building secure, scalable and <span class="grad">AI-powered</span> products.</h1>
+  <p class="lead">I lead engineering teams from architecture to delivery — across cloud, security, UX and applied AI — for private and government cloud services, web and mobile.</p>
+  <div class="cta">
+    <a class="btn primary" href="https://github.com/khooyj">View GitHub</a>
+    <a class="btn" href="#expertise">What I do</a>
+  </div>
+</section>
 
-Software architect with a focus on secure, well-designed systems — from private and government cloud services to responsive web and hybrid mobile apps.
-
-## Strengths
+<h2 id="expertise">What I do</h2>
 
 <div class="grid">
-  <div class="card"><h3>Architecture &amp; design</h3><ul><li>Software architecture</li><li>System design</li><li>UX</li></ul></div>
-  <div class="card"><h3>Engineering</h3><ul><li>Coding</li><li>Responsive web apps</li><li>Hybrid mobile apps</li><li>Modern UI frameworks</li></ul></div>
-  <div class="card"><h3>Cloud &amp; security</h3><ul><li>Security</li><li>Private &amp; government cloud</li><li>Ansible, Terraform</li></ul></div>
+  <div class="card ai">
+    <span class="icon">✦</span>
+    <h3>AI &amp; Automation</h3>
+    <p>Bringing LLMs and AI-assisted workflows into products and engineering practice — from prototypes to production.</p>
+  </div>
+  <div class="card">
+    <span class="icon">◈</span>
+    <h3>Architecture &amp; Leadership</h3>
+    <p>Software architecture, system design and technical direction for teams.</p>
+  </div>
+  <div class="card">
+    <span class="icon">☁</span>
+    <h3>Cloud &amp; Infrastructure</h3>
+    <p>Private and government cloud services, automated with Ansible and Terraform.</p>
+  </div>
+  <div class="card">
+    <span class="icon">⛨</span>
+    <h3>Security</h3>
+    <p>Security-minded design and delivery from the first line of code.</p>
+  </div>
+  <div class="card">
+    <span class="icon">▤</span>
+    <h3>Web &amp; Mobile</h3>
+    <p>Responsive web apps and hybrid mobile apps on modern UI frameworks.</p>
+  </div>
+  <div class="card">
+    <span class="icon">✎</span>
+    <h3>Design &amp; UX</h3>
+    <p>User-centred design that makes complex systems simple to use.</p>
+  </div>
 </div>
 
-## Tech
+<h2>Toolbox</h2>
 
 <ul class="tags">
-  <li>Java</li><li>Python</li><li>Shell</li><li>Node.js</li><li>JavaScript</li>
-  <li>Ansible</li><li>Terraform</li><li>Unix</li><li>Linux</li><li>Windows</li>
+  <li class="hot">AI / LLMs</li><li>Java</li><li>Python</li><li>Node.js</li><li>JavaScript</li><li>Shell</li>
+  <li>Ansible</li><li>Terraform</li><li>Linux</li><li>Unix</li><li>Windows</li>
 </ul>
 
-## Links
+<h2>Let's connect</h2>
 
-- [GitHub – khooyj](https://github.com/khooyj)
+<p><a href="https://github.com/khooyj">github.com/khooyj</a></p>
