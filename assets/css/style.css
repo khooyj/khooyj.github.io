@@ -71,5 +71,9 @@ h2{margin:48px 0 16px;font-size:1.7rem;display:inline-block;padding:2px 16px;bac
 @keyframes run{from{transform:translateX(-120px)}to{transform:translateX(calc(100vw + 120px))}}
 @keyframes bob{50%{transform:translateY(-6%)}}
 @keyframes step{0%,100%{transform:rotate(28deg)}50%{transform:rotate(-28deg)}}
+.banana{position:absolute;top:-60px;left:var(--l);width:var(--z);height:var(--z);animation:fall var(--t) linear var(--d) infinite;opacity:.95}
+.minion .hold{position:absolute;right:-30%;top:48%;width:48%;height:30%;transform:rotate(-20deg);animation:swing .35s ease-in-out infinite;z-index:3}
+@keyframes fall{from{transform:translateY(0) rotate(0)}to{transform:translateY(calc(100vh + 120px)) rotate(360deg)}}
+@keyframes swing{50%{transform:rotate(-5deg) translateY(-4px)}}
 @media(max-width:520px){.minion{opacity:.6}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto}}
