@@ -3,8 +3,10 @@ layout: default
 ---
 
 <section class="hero">
+  <div class="goggle" aria-hidden="true"><div class="eye"><div class="pupil"></div></div></div>
   <p class="eyebrow">Tech Lead</p>
-  <h1>Building secure, scalable and <span class="grad">AI-powered</span> products.</h1>
+  <h1>Building secure, scalable and AI-powered products.</h1>
+  <p class="key">“A Small Potato Bring and Handling A Minions Team.”</p>
   <p class="lead">I lead engineering teams from architecture to delivery — across cloud, security, UX and applied AI — for private and government cloud services, web and mobile.</p>
   <div class="cta">
     <a class="btn primary" href="https://github.com/khooyj">View GitHub</a>
