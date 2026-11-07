@@ -52,7 +52,8 @@ h2{margin:48px 0 16px;font-size:1.7rem;display:inline-block;padding:2px 16px;bac
 /* Running minions in the background */
 .runners{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
 .site-header,main,.site-footer{position:relative;z-index:1}
-.minion{position:absolute;bottom:var(--b);left:0;width:calc(var(--s)*.55);height:var(--s);animation:run var(--t) linear var(--d) infinite;opacity:.9}
+.minion{position:absolute;overflow:visible;bottom:var(--b);left:0;width:calc(var(--s)*.55);height:var(--s);animation:run var(--t) linear var(--d) infinite;opacity:.9}
+.minion .name{position:absolute;bottom:calc(100% + 8px);left:50%;transform:translateX(-50%);padding:1px 10px;font-size:.8rem;font-weight:700;color:var(--yellow);background:var(--denim);border:2px solid var(--black);border-radius:999px;white-space:nowrap}
 .minion i{position:absolute;display:block}
 .minion .body{inset:0 0 18% 0;background:var(--yellow-d);border:3px solid var(--black);border-radius:999px;overflow:hidden;animation:bob .35s ease-in-out infinite}
 .minion .goggle-s{top:22%;left:50%;width:62%;aspect-ratio:1;margin-left:-31%;border-radius:50%;background:var(--steel);border:3px solid var(--black);z-index:2}
