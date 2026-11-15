@@ -1,15 +1,11 @@
 ---
-layout: default
+layout: post
 title: "Where AI's Pace of Change Should Live"
 description: "Friday writing: where in the architecture AI's fast-moving change should land — an AI gateway seam, and a platform that owns LLM reliability."
+date: 2026-10-16 09:00:00 +0800
+tags: [Architecture, AI platform, Friday writing]
 permalink: /ai-pace-of-change/
 ---
-
-<article class="article" markdown="1">
-
-# Where AI's pace of change should live
-
-<p class="meta">Friday writing · 16 October 2026</p>
 
 *Sources: InfoQ, "An Evolutionary Architecture Pattern for Managing AI's Pace of Change" (Price, Đurek, Migkiros, Dearham, Jul 2026) and "The Platform Engineering Playbook for Production LLMs" (Aditya Mulik, Oct 2026). Figures below are the authors' claims, not ours.*
 
@@ -62,5 +58,3 @@ Both articles come from authors describing their own designs. The numbers are se
 ## Next step
 
 Proposal for the week: pick one of the four questions above, spend an hour as a team mapping our current answer, and write down the gap. No new tooling until we know the gap.
-
-</article>

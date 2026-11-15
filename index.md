@@ -11,6 +11,7 @@ layout: default
   <div class="cta">
     <a class="btn primary" href="https://github.com/khooyj">View GitHub</a>
     <a class="btn" href="#expertise">What I do</a>
+    <a class="btn" href="{{ '/articles/' | relative_url }}">Articles</a>
   </div>
 </section>
 
@@ -55,6 +56,21 @@ layout: default
   <li class="hot">AI / LLMs</li><li>Java</li><li>Python</li><li>Node.js</li><li>JavaScript</li><li>Shell</li>
   <li>Ansible</li><li>Terraform</li><li>Linux</li><li>Unix</li><li>Windows</li>
 </ul>
+
+<h2 id="articles">Latest articles</h2>
+
+<ul class="post-list compact">
+  {% for post in site.posts limit: 3 %}
+  <li>
+    <a class="post-card" href="{{ post.url | relative_url }}">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %b %Y" }}</time>
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.description }}</p>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+<p><a class="btn" href="{{ '/articles/' | relative_url }}">All articles →</a></p>
 
 <h2>Let's connect</h2>
 

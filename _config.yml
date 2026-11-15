@@ -2,9 +2,12 @@ title: KYJ
 description: Tech Lead · AI · Cloud · Security
 url: "https://khooyj.github.io"
 lang: en
+timezone: Asia/Singapore
+author: KYJ
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-feed
 
 exclude:
   - Gemfile
